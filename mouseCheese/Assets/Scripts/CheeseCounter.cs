@@ -1,15 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CheeseCounter : MonoBehaviour
 {
+	public int next;
+	private Text cheesecount;
+	private int originalCount;
+
+	void Start()
+	{
+		cheesecount = FindObjectOfType<Text>();
+		originalCount = GameObject.FindGameObjectsWithTag("Cheese").Length;
+	}
+
 	// Update is called once per frame
 	void Update()
 	{
-		if(GameObject.FindGameObjectsWithTag("Cheese").Length == 0)
+		int cheeseLeft = GameObject.FindGameObjectsWithTag("Cheese").Length;
+		cheesecount.text = "Cheese left " + cheeseLeft + " / " + originalCount;
+		if(cheeseLeft == 0)
 		{
 			print("You Win");
+			SceneManager.LoadScene(next);
 		}
 	}
 }
