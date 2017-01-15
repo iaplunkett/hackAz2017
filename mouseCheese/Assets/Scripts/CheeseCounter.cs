@@ -9,17 +9,26 @@ public class CheeseCounter : MonoBehaviour
 	public int next;
 	private Text cheesecount;
 	private int originalCount;
+	private GameObject[] chesses;
 
 	void Start()
 	{
 		cheesecount = FindObjectOfType<Text>();
-		originalCount = GameObject.FindGameObjectsWithTag("Cheese").Length;
+		chesses = GameObject.FindGameObjectsWithTag("Cheese");
+		originalCount = chesses.Length;
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
-		int cheeseLeft = GameObject.FindGameObjectsWithTag("Cheese").Length;
+		int cheeseLeft = 0;
+		for(int i = 0; i < chesses.Length; i++)
+		{
+			if(chesses[i].GetComponent<MeshRenderer>().enabled == true)
+			{
+				cheeseLeft++;
+			}
+		}
 		cheesecount.text = "Cheese left " + cheeseLeft + " / " + originalCount;
 		if(cheeseLeft == 0)
 		{

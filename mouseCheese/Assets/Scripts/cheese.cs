@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class cheese : MonoBehaviour
 {
-
+//	void Start()
+//	{
+//		GetComponent<AudioSource>().
+//	}
 	void OnTriggerEnter(Collider other)
 	{
-		gameObject.SetActive(false);
+		GetComponent<AudioSource>().Play();
+		gameObject.GetComponent<MeshRenderer>().enabled = false;
+		gameObject.GetComponent<Collider>().enabled = false;
 	}
 }

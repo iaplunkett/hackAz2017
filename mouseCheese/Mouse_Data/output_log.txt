@@ -1,0 +1,86 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 680M (ID=0x11a0)
+    Vendor:   NVIDIA
+    VRAM:     2016 MB
+    Driver:   21.21.13.6909
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\isaac\Documents\GitHub\hackAz2017\mouseCheese\Mouse_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\isaac\Documents\GitHub\hackAz2017\mouseCheese\Mouse_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\isaac\Documents\GitHub\hackAz2017\mouseCheese\Mouse_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\isaac\Documents\GitHub\hackAz2017\mouseCheese\Mouse_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\isaac\Documents\GitHub\hackAz2017\mouseCheese\Mouse_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\isaac\Documents\GitHub\hackAz2017\mouseCheese\Mouse_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\isaac\Documents\GitHub\hackAz2017\mouseCheese\Mouse_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\isaac\Documents\GitHub\hackAz2017\mouseCheese\Mouse_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\isaac\Documents\GitHub\hackAz2017\mouseCheese\Mouse_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\isaac\Documents\GitHub\hackAz2017\mouseCheese\Mouse_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\isaac\Documents\GitHub\hackAz2017\mouseCheese\Mouse_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\isaac\Documents\GitHub\hackAz2017\mouseCheese\Mouse_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.031 seconds
+Platform assembly: C:\Users\isaac\Documents\GitHub\hackAz2017\mouseCheese\Mouse_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\isaac\Documents\GitHub\hackAz2017\mouseCheese\Mouse_Data\Managed\System.dll (this message is harmless)
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.508310 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 22c4 -> priority: 1 
+  Thread -> id: 2284 -> priority: 1 
+You Win
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.368990 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 470.
+Total: 0.173714 ms (FindLiveObjects: 0.019766 ms CreateObjectMapping: 0.014064 ms MarkObjects: 0.125439 ms  DeleteObjects: 0.014064 ms)
+
+You Win
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.523043 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 580.
+Total: 0.217047 ms (FindLiveObjects: 0.031549 ms CreateObjectMapping: 0.015204 ms MarkObjects: 0.155088 ms  DeleteObjects: 0.015204 ms)
+
+You Win
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.684213 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 502.
+Total: 0.269123 ms (FindLiveObjects: 0.042573 ms CreateObjectMapping: 0.027368 ms MarkObjects: 0.125059 ms  DeleteObjects: 0.072982 ms)
+
+You Win
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.456902 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 665.
+Total: 0.201462 ms (FindLiveObjects: 0.038011 ms CreateObjectMapping: 0.021666 ms MarkObjects: 0.137222 ms  DeleteObjects: 0.003801 ms)
+
+You Win
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.586903 ms
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 256.
+Total: 0.299913 ms (FindLiveObjects: 0.011023 ms CreateObjectMapping: 0.013304 ms MarkObjects: 0.099591 ms  DeleteObjects: 0.175614 ms)
+
+quit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
